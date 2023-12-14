@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at I2CMaster.v(47): always construct contains both blocking and non-blocking assignments File: M:/FFTVisualizer-master(New)/FFTVisualizer-master/Verilog/src/audio/i2c/I2CMaster.v Line: 47

@@ -1,0 +1,14 @@
+module clapCounter (
+	input clk,
+	input rst,
+	input LEDon,
+	output reg count
+);
+
+	reg counter;
+
+	always@(posedge clk or negedge rst)
+	begin
+		if (LEDon == 1'b1)
+		begin
+			

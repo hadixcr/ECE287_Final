@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Dec 14 12:18:00 2023
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Final_Project_Clapper
+Top-level Entity Name : Final_Project_Clapper
+Family : Cyclone IV E
+Total logic elements : 1,120
+    Total combinational functions : 962
+    Dedicated logic registers : 760
+Total registers : 760
+Total pins : 55
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 8
+Total PLLs : 0

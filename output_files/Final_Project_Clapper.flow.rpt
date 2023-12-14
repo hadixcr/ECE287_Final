@@ -1,0 +1,304 @@
+Flow report for Final_Project_Clapper
+Thu Dec 14 12:18:18 2023
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Thu Dec 14 12:18:15 2023       ;
+; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                      ; Final_Project_Clapper                       ;
+; Top-level Entity Name              ; Final_Project_Clapper                       ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 1,101 / 114,480 ( < 1 % )                   ;
+;     Total combinational functions  ; 965 / 114,480 ( < 1 % )                     ;
+;     Dedicated logic registers      ; 688 / 114,480 ( < 1 % )                     ;
+; Total registers                    ; 688                                         ;
+; Total pins                         ; 55 / 529 ( 10 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 8 / 532 ( 2 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-------------------------------------------+
+; Flow Settings                             ;
++-------------------+-----------------------+
+; Option            ; Setting               ;
++-------------------+-----------------------+
+; Start date & time ; 12/14/2023 12:17:19   ;
+; Main task         ; Compilation           ;
+; Revision Name     ; Final_Project_Clapper ;
++-------------------+-----------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                       ;
++-------------------------------------+-----------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                                                             ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+-----------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 198208559445303.170257423938624                                                   ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; None                                                                              ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfpbdr_core_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfpbdr_firststage_fft_130.vhd                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfpbdr_laststage_fft_130.vhd                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfpbdr_stage_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfpbdr_top_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfprvs_core_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfprvs_fft4_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfprvs_firststage_fft_130.vhd                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfprvs_laststage_fft_130.vhd                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfprvs_stage_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfprvs_top_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfprvs_twiddle_opt_fft_130.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_add_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_cmplxmult_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_core_fft_130.vhd                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_del_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_dft4_fft_130.vhd                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_fft4_fft_130.vhd                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_laststage_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_lsft32_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_mul_2727_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_mul_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_ram_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_rsft32_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_rvsctl_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_rvs_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_shift_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_snorm_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_snorm_mul_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_stage_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_sub_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_top_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_twiddle_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_twiddle_opt_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fftfp_unorm_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fft_cmult_cpx2_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fft_cmult_cpx_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fft_mult_can_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fft_mult_cpx_1825_fft_130.v                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_fft_mult_cpx_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_hcc_cntsgn32_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_hcc_cntusgn32_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_hcc_sgnpstn_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/apn_hcc_usgnpos_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_1dp_ram_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_1tdp_rom_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_3dp_rom_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_3pi_mram_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_3tdp_rom_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_4dp_ram_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_6tdp_rom_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_alt_shift_tdl_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_bfp_ctrl_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_bfp_i_1pt_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_bfp_i_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_bfp_o_1pt_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_bfp_o_fft_130.vhd                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_burst_ctrl_de_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_burst_ctrl_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_burst_ctrl_qe_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cmult_can_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cmult_std_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cnt_ctrl_de_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cnt_ctrl_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cxb_addr_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cxb_data_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cxb_data_mram_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_cxb_data_r_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_dataadgen_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_data_ram_dp_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_data_ram_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_dft_bfp_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_dft_bfp_sgl_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_dpi_mram_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_dp_mram_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_dualstream_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_in_write_sgl_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_lcm_mult_2m_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_lcm_mult_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_lpprdadgen_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_lpprdadr2gen_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_lpp_fft_130.vhd                                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_lpp_serial_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_lpp_serial_r2_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_mult_add_fft_130.vhd                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_m_k_counter_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_pround_fft_130.vhd                                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_sglstream_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_si_de_so_bb_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_si_de_so_b_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_si_qe_so_bb_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_si_qe_so_b_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_si_se_so_bb_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_si_se_so_b_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_si_sose_so_b_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_tdl_bit_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_tdl_bit_rst_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_tdl_fft_130.vhd                                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_tdl_rst_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_twadgen_dual_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_twadgen_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_twadsogen_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_twadsogen_q_fft_130.vhd                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_twiddle_ctrl_qe_fft_130.vhd                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_twid_rom_tdp_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_unbburst_ctrl_de_fft_130.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_unbburst_ctrl_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_unbburst_ctrl_qe_fft_130.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_unbburst_sose_ctrl_fft_130.vhd                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_wrengen_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/asj_fft_wrswgen_fft_130.vhd                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_block_sink_fftfprvs_fft_130.vhd ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_block_sink_fft_130.vhd          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_block_source_fft_130.vhd        ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_controller_fft_130.vhd          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_controller_pe_fft_130.vhd       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_monitor_fft_130.vhd             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_sink_fft_130.vhd                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_sink_model_fft_130.vhd          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_source_fft_130.vhd              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_source_from_monitor_fft_130.vhd ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_avalon_streaming_source_model_fft_130.vhd        ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_bit_reverse_addr_control_fft_130.vhd             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_bit_reverse_core_fft_130.vhd                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_bit_reverse_reverse_carry_adder_fft_130.vhd      ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_fpcompiler_alufp_fft_130.vhd                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_fpcompiler_aslf_fft_130.vhd                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_fpcompiler_asrf_fft_130.vhd                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_fpcompiler_castftox_fft_130.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_fpcompiler_castxtof_fft_130.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_fpcompiler_clzf_fft_130.vhd                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_fpcompiler_mulfp_fft_130.vhd                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_lib_pkg_fft_130.vhd                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_math_pkg_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_adder_fp_fft_130.vhd                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_addsub_fft_130.vhd                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_bfii_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_bfi_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_bf_control_fft_130.vhd                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_cma_adder_fp_fft_130.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_cma_bfi_fp_fft_130.vhd                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_cma_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_core_fft_130.vhd                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_counter_fft_130.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_delay_fft_130.vhd                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_enable_control_fft_130.vhd                ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_lib_pkg_fft_130.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_stage_fft_130.vhd                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_stg_out_pipe_fft_130.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_stg_pipe_fft_130.vhd                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_top_fft_130.vhd                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_r22sdf_twrom_fft_130.vhd                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_roundsat_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/auk_dspip_text_pkg_fft_130.vhd                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/fft_pack_fft_130.vhd                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/fft-library/twid_rom_fft_130.vhd                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf.vo                                                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_tb.v                                                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_model.m                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_tb.m                                                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_nativelink.tcl                                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_real_input.txt                                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_imag_input.txt                                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_1n4096sin.hex                                                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_2n4096sin.hex                                                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_3n4096sin.hex                                                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_1n4096cos.hex                                                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_2n4096cos.hex                                                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_3n4096cos.hex                                                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf.v                                                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf_bb.v                                                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf.bsf                                                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf.qip                                                             ; --            ; --          ; --             ;
+; MISC_FILE                           ; src/fft/mf/FFT_mf.html                                                            ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                                                              ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                                            ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                                            ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                                            ; --            ; --          ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                               ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                             ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                      ; --            ; --          ; --             ;
+; SEARCH_PATH                         ; src/fft/mf/.                                                                      ; --            ; --          ; --             ;
+; SEARCH_PATH                         ; src/fft/mf/fft-library                                                            ; --            ; --          ; --             ;
+; VERILOG_SHOW_LMF_MAPPING_MESSAGES   ; Off                                                                               ; --            ; --          ; --             ;
++-------------------------------------+-----------------------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 5006 MB             ; 00:00:25                           ;
+; Fitter               ; 00:00:10     ; 1.1                     ; 6534 MB             ; 00:00:08                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4707 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.2                     ; 4989 MB             ; 00:00:01                           ;
+; Total                ; 00:00:54     ; --                      ; --                  ; 00:00:37                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; BigMama          ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; BigMama          ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; BigMama          ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; BigMama          ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Final_Project_Clapper -c Final_Project_Clapper
+quartus_fit --read_settings_files=off --write_settings_files=off Final_Project_Clapper -c Final_Project_Clapper
+quartus_asm --read_settings_files=off --write_settings_files=off Final_Project_Clapper -c Final_Project_Clapper
+quartus_sta Final_Project_Clapper -c Final_Project_Clapper
+
+
+

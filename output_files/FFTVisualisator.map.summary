@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 13 18:13:37 2023
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : FFTVisualisator
+Top-level Entity Name : FFTVisualisator
+Family : Cyclone IV E
+Total logic elements : 1,119
+    Total combinational functions : 961
+    Dedicated logic registers : 758
+Total registers : 758
+Total pins : 55
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 8
+Total PLLs : 0

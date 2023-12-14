@@ -1,0 +1,7 @@
+module counter(
+input ledPeak,
+input en,
+output clapCount
+);
+
+parameter 
